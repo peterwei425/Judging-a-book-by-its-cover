@@ -29,7 +29,7 @@ In this project, we applied LIME to answer given a book cover, which parts of th
 
 ### GAN
 
-We obtained a set of book covers whose popularity score are relatively higher in the list, and we fed a collection of 32,166 images to the DCGAN for training. We asked the generator to generate fake data from a vector of 100 uniformly random numbers, ranging from 0 to 1. Then, we fed the fake data to the discriminator with fake labels. As a result, a batch of 128 images were created in one of the epochs of our Deep Convolution Generative Adversarial Network(DCGAN). 
+We obtained a set of book covers whose popularity score are relatively higher in the list, and we fed a collection of 32,166 images to the DCGAN for training. We asked the generator to generate fake data from a vector of 100 uniformly random numbers, ranging from 0 to 1. Then, we fed the fake data to the discriminator with fake labels. As a result, a batch of 128 images were created in one of the epochs of our (Deep Convolutional Generative Adversarial Network)DCGAN, which was shown below. For example, for the image circled in red, we can see two people sitting together facing the sea. 
 
 ![](Photos/GAN.png)
 
