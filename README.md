@@ -33,7 +33,7 @@ We obtained a set of book covers whose popularity score are relatively higher in
 
 ![](Photos/GAN.png)
 
-This project was awarded as the [Most Creative Project](http://pages.stat.wisc.edu/~sraschka/teaching/stat479-ss2019/#project-presentation-awards) as a class project for [STAT 479 (Deep Learning) for Spring 2019](http://pages.stat.wisc.edu/~sraschka/teaching/stat479-ss2019/).
+This project was awarded as the [Most Creative Project](http://pages.stat.wisc.edu/~sraschka/teaching/stat479-ss2019/#project-presentation-awards)for [STAT 479 (Deep Learning) for Spring 2019](http://pages.stat.wisc.edu/~sraschka/teaching/stat479-ss2019/).
 
 Team: [Boyang Wei](https://www.linkedin.com/in/boyang-wei/),[Yien Xu](https://github.com/yienxu), [Jiongyi Cao](https://www.linkedin.com/in/jiongyi-cao-984711103/)
 
