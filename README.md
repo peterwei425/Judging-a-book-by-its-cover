@@ -12,7 +12,7 @@ The project consists of 3 parts:
 
 - CORAL-CNN to address the problem of classifier inconsistency
 - LIME to further understand which. Particular part of the book cover contributes to the books’ popularities
-- DCGAN to study what a popular book looks like 
+- GAN to study what a popular book looks like 
 
 ### CORAL-CNN
 
@@ -24,7 +24,14 @@ LIME is an algorithm for explaining the result of classification or regression b
 
 In this project, we applied LIME to answer given a book cover, which parts of the image will explain its output, i.e., the popularity level. Particularly, a successful LIME output will extract patches in the book cover that are most deterministic to its popularity. For example, we compare too different book covers for the same Harry Potter book: Harry Potter and the Chamber of Secrets; Notice that one cover is with main title while the other is not. As you can see below, for the book with main title, LIME detects “Harry”; for the book without main title, LIME detects its subtitle.
 
+![](Photos/LIME.png)
 
+
+### GAN
+
+We obtained a set of book covers whose popularity score are relatively higher in the list, and we fed a collection of 32,166 images to the DCGAN for training. We asked the generator to generate fake data from a vector of 100 uniformly random numbers, ranging from 0 to 1. Then, we fed the fake data to the discriminator with fake labels. As a result, a batch of 128 images were created in one of the epochs of our Deep Convolution Generative Adversarial Network(DCGAN). 
+
+![](Photos/GAN.png)
 
 
 
